@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/codyfoltz/RiderProjects/Cobbler/Cobbler/Cobbler.csproj": {}
+  },
+  "projects": {
+    "/Users/codyfoltz/RiderProjects/Cobbler/Cobbler/Cobbler.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/codyfoltz/RiderProjects/Cobbler/Cobbler/Cobbler.csproj",
+        "projectName": "Cobbler",
+        "projectPath": "/Users/codyfoltz/RiderProjects/Cobbler/Cobbler/Cobbler.csproj",
+        "packagesPath": "/Users/codyfoltz/.nuget/packages/",
+        "outputPath": "/Users/codyfoltz/RiderProjects/Cobbler/Cobbler/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/codyfoltz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/codyfoltz/.dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
